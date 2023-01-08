@@ -17,7 +17,7 @@ body {
 	display: flex;
 	flex-direction: column;
     padding: 2em 20em;
-    padding-bottom: 15em;
+    padding-bottom: 10em;
 }
 
 .header-items {
@@ -100,7 +100,7 @@ body {
     font-size: 48px;
     font-weight: 700;
     color: #1f2937;
-    margin: 1em auto;
+    margin-bottom: 1em;
 }
 
 .section-item {
