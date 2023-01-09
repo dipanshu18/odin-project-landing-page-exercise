@@ -29,7 +29,6 @@ body {
 
 .header-sub-items {
 	flex: 1;
-	font-size: 24px;
     font-weight: 100;
     display: flex;
     justify-content: flex-end;
@@ -37,11 +36,12 @@ body {
 }
 
 .header-logo {
+    font-size: 24px;
 	font-weight: 500;
     justify-content: flex-start;
 }
 
-.header-sub-items a {
+.header a {
 	text-decoration: none;
 	color: #f9faf8;
 }
@@ -71,6 +71,7 @@ body {
     color: #f9faf8;
     letter-spacing: 1px;
     font-weight: 700;
+    margin-bottom: 0.1em;
 }
 
 .title-sub-text {
@@ -78,7 +79,7 @@ body {
     letter-spacing: 0.5px;
     font-size: 20px;
     font-weight: 500;
-    margin-bottom: 10px;
+    margin-bottom: 1em;
 }
 
 .sign-up-btn {
@@ -93,7 +94,7 @@ body {
 
 .section {
     text-align: center;
-    padding: 5em 25em;
+    padding: 7em 25em;
 }
 
 .section-heading {
@@ -173,6 +174,7 @@ body {
     font-weight: 700;
     padding: 0.3em 2em;
     border-radius: 10px;
+    text-decoration: none;
     border: 1px solid #f9faf8;
     background-color: #3882F6;
 }
